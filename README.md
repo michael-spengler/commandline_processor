@@ -14,8 +14,13 @@ console.log(await CommandLineProcessor.process(commandToBeExecuted))
 
 ```
 
-## Test it via command line
+## Call it via command line
 ```
 deno run --allow-run https://raw.githubusercontent.com/michael-spengler/commandline_processor/master/test-it.ts
 <!-- deno run --allow-net https://deno.land/x/commandline_processor/test-it.ts -->
 ```
+
+## Execute the tests
+```
+deno test --reload --allow-net --allow-run test.ts
+``` 
