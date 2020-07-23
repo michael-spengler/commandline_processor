@@ -1,5 +1,5 @@
 
-import { CommandLineProcessor } from "https://raw.githubusercontent.com/michael-spengler/commandline_processor/master/commandline-processor.ts"
+import { CommandLineProcessor } from "https://deno.land/x/commandline_processor/commandline-processor.ts"
 
 const commandToBeExecuted = 'deno -V'
 
