@@ -5,6 +5,7 @@ export class CommandLineProcessor {
 	public static async process(cmd: string) {
 		let opts: Deno.RunOptions
 
+		console.log(`\nexecuting command: ${cmd} \nin folder: ${Deno.cwd()} `)
 		opts = {
 			cmd: cmd.split(' ')
 		}
