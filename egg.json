@@ -1,0 +1,14 @@
+{
+  "name": "commandline-processor",
+  "description": "Command Line Processor",
+  "stable": true,
+  "repository": "https://github.com/michael-spengler/commandline_processor",
+  "files": [
+    "commandline-processor.ts",
+    "LICENSE",
+    "mod.ts",
+    "README.md",
+    "test.ts",
+    "usage-example.ts"
+  ]
+}
